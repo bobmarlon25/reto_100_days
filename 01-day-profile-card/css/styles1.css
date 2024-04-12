@@ -17,9 +17,10 @@ height: 1200px;
   
 }
 .card-info{
-    background: rgba(36, 35, 35, 1);
-    width: 386px;
-    height: 439px;
+  border-radius: 10px;
+  background: rgba(36, 35, 35, 1);
+  width: 386px;
+  height: 439px;
     
     
 }
@@ -56,6 +57,7 @@ a  img{
 
 
 .card-info h1{
+  
   width: 171px;
   height: 22px;
   font-family: Montserrat;
@@ -117,4 +119,12 @@ a  img{
 }
 .social-icon:hover {
   transform: scale(1.2);
+}
+
+link[rel="icon"] {
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+link:not([rel="icon"]) {
+  display: none;
 }
