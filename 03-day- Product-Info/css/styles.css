@@ -1,0 +1,311 @@
+/* -----------------
+Tabla de contenidos:
+--------------------
+1. Fuente ......................... 12
+2. Variables ...................... 16
+3. Estilos generales .............. 27
+-------------------- */
+
+
+/* ----- Fuente ----- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+/* ----- Variables ----- */
+:root {
+    /* colores */
+    --color: #333;
+
+    /* config. */
+    --fuente: 'Poppins', sans-serif;
+    --ft-size: 1rem;
+    --l-height: 22px;
+}
+
+
+/* ----------------------------- */
+/* ----- Estilos generales ----- */
+/* ----------------------------- */
+body {
+    font-family: var(--fuente);
+    background: rgba(238, 242, 249, 1);
+	color: #fff;
+    width: 1600px;
+    height: 1200px;
+    margin:0;
+
+    
+    padding: 269px 357px 270px 356px;
+
+    
+
+}
+div.card {
+    width: 887px;
+    height: 661px;
+    margin-top: 269px;
+    margin-left: 356px;
+    background: rgba(255, 255, 255, 1);
+}
+
+div.conteiner{
+ width: 723px;
+ height:  497px;
+ margin-top: 82px;
+ margin-left: 82px;
+ gap: 32px;
+ opacity: 0px;
+ position: absolute;
+
+}
+
+
+.imagen{
+    width: 249px;
+    height: 223px;
+    position: absolute;
+   
+
+}
+.info{
+    width: 442px;
+    height: 497px;
+    margin-inline-start: 281px;
+   
+    
+}
+.buton{
+    width: 112px;
+    height: 29px;
+    padding: 4px 8px 4px 8px;
+    gap: 10px;
+    border-radius: 20px;
+    background: rgba(25, 24, 71, 1);
+
+
+
+}
+.grup-1{
+    width: 419px;
+    height: 111px;
+   
+    border-radius: 20px 0px 0px 0px;
+    
+}
+
+.buton p {
+
+    width: 112px;
+    height: 29px;
+    display: flex; /* Utilizar flexbox para centrar vertical y horizontalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    margin: 0;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.grup-1 h1{
+    width: 419px;
+    height: 72px;
+    margin-top: 10px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: rgba(25, 24, 71, 1);
+
+   
+   
+
+}
+
+.grup-2{
+    width:365px;
+    height: 114px;
+    margin-top: 38px;
+    color: rgba(25, 24, 71, 1);
+}
+
+.p-2{
+    width: 54px;
+    height: 21px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: left;
+    
+
+}
+
+.p-3{
+    margin:0;
+    width: 120px;
+    height: 72px;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: left;
+   
+
+
+
+}
+.p-4{
+    width: 365px;
+    height: 21px;
+    opacity: 0.6;
+    margin: 0;
+
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    
+
+    
+}
+
+.grup-3{
+
+    width:  410px;
+    height: 27px;
+    padding: 16px ;
+
+    border-radius: 8px ;
+    background: rgba(71, 136, 233, 1);
+    box-shadow: 0px 7px 0px 0px rgba(28, 87, 238, 1);
+    margin-top: 38px;
+    transition-duration: 0.4s; /* Duración de la transición */
+    cursor: pointer;
+
+
+}
+
+.grup-3:hover{
+    transform: scale(1.1); /* Aumentar el tamaño del botón al pasar el cursor */
+}
+
+
+
+.grup-3 h1{
+    width: 101px;
+    height: 27px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    
+    
+}
+
+.grup-4{
+    width: 442px;
+    height: 64px;
+   
+    margin-top: 35px;
+}
+
+.div-1{
+   
+    display: inline-block;
+    width: 213px;
+    height: 64px;
+    margin-right: 0px;
+    border-radius: 8px ;
+    border: 2px ;
+    border: 2px solid rgba(201, 201, 218, 1);
+    transition-duration: 0.4s; /* Duración de la transición */
+    cursor: pointer;
+}
+.div-1:hover{
+    background: rgba(71, 136, 233, 1);
+    transform: scale(1.1); /* Aumentar el tamaño del botón al pasar el cursor */
+}
+.div-2{
+   
+    display: inline-block;
+    width: 213px;
+    height: 64px;
+    margin-left: 5px;
+    border-radius: 8px ;
+    border: 2px ;
+    border: 2px solid rgba(201, 201, 218, 1);
+    transition-duration: 0.4s; /* Duración de la transición */
+  cursor: pointer;
+}
+.div-2:hover{
+    background: rgba(71, 136, 233, 1);
+    transform: scale(1.1); /* Aumentar el tamaño del botón al pasar el cursor */
+}
+img{
+    width: 32px;
+    height: 32px;
+    margin: 15px;
+}
+p{
+    margin-bottom: 20px;
+    color : rgba(25, 24, 71, 1);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    display: inline-block;
+    
+    
+}
+.p-5{
+    width: 101px;
+    height: 27px;
+    position:absolute;
+
+
+}
+
+.p-6{
+    position:absolute;
+    width: 131px;
+    height: 27px;
+}
+
+
+.cap p{
+    display: inline-block;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+
+    
+}
+.cap{
+    width: 138px;
+height: 21px;
+ margin-top: 15px;
+}
+
+
+
+
+.vacio{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: rgba(0, 217, 139, 1);
+    border-radius: 50%;
+}
