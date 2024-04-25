@@ -30,13 +30,11 @@ body {
     font-family: var(--fuente);
     background: rgba(238, 242, 249, 1);
 	color: #fff;
-    width: 1600px;
-    height: 1200px;
+    width: 100%;
     margin:0;
+   
 
     
-    padding: 269px 357px 270px 356px;
-
     
 
 }
