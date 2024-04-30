@@ -2,6 +2,10 @@ body{
     width: 1440px;
     height: 960px;
     background: #F4D04E ;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
 }
 
 .card-info{
@@ -9,7 +13,7 @@ body{
     height: 522px;;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 219px;
+    margin-top: 109.5px;
     margin-bottom: 219px;
     background: #FFFFFF;
     border: 1px solid #111111;
@@ -19,7 +23,7 @@ body{
 }
 
 .card-info:hover {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Sombras en el estado hover */
+    box-shadow: 20px 20px 0px 10px #000000; /* Sombras en el estado hover */
 }
 
 .card img{
@@ -60,8 +64,8 @@ body{
     height: 21px;
     margin-bottom: 4px;
     margin-top: 4px;
-    margin-left: 12px;
-    margin-right: 12px;
+    margin-left: 6px;
+    margin-right: 6px;
     /* Body S (Bold) */
     font-family: 'Figtree';
     font-style: normal;
@@ -115,7 +119,8 @@ body{
     color: #111111;
     margin: 0;
     display: inline-block;
-    transition: font-size 0.3s ease; /* Transición suave para el cambio de tamaño del texto */
+    /* transition: font-size  0.3s ease; */
+    transition: color 0.3s ease; /* Transición suave para el cambio de tamaño del texto */
 }
 
     
@@ -123,8 +128,8 @@ body{
 
 
 .texto-3:hover {
-    font-size: 28px; /* Cambio de tamaño del texto del título en hover */
-
+    /* font-size: 28px; Cambio de tamaño del texto del título en hover */
+    color: #F4D04E;
     
     cursor: pointer; /* Cambiar el cursor al pasar sobre el título */
 }
